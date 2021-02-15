@@ -34,6 +34,7 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
+console.log('working');
 (function(window){
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
@@ -64,5 +65,6 @@ WARNING!!! WARNING!!!
       helloSpeaker.speak(names[i]);
     }
   }
+  window.names=names
 })(window);
 
